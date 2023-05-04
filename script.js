@@ -705,63 +705,6 @@ if (document.querySelector(".ada").value !== i.answer) {
     document.querySelector(".code_space").classList.add("anim1");
   } else {
     document.querySelector(".code_space").classList.remove("anim1");
-    document.querySelector("section").innerHTML = `
-<div class="first_side">
-<div class="levels">
-  <div class="prv"></div>
-  <div class="number">
-    <span>Уровень <span id="this">${levels[Object.prototype.idx + 1].level}</span> из 24 </span>
-    <div class="dropdown"></div>
-  </div>
-  <div class="next"></div>
-</div>
-<div class="info">
-  <div class="title"><h1>Flexbox Froggy</h1></div>
-  <span class="infos">${levels[Object.prototype.idx + 1].info}</span>
-  <div class="list">${levels[Object.prototype.idx + 1].list}</div>
-  <div class="example">
-  ${levels[Object.prototype.idx + 1].example}
-  </div>
-</div>
-<div class="code_space">
-  <div class="inp_1">
-  <ul>
-  <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-    </ul>
-  </div>
-  <div class="inp_2">
-    <div class="textarea">
-    <span class="given">${levels[Object.prototype.idx + 1].given} </span>
-   
-    <br class="brg" />
-    
-    <span class="answer">${levels[Object.prototype.idx + 1].question} </span>
-    </div>
-    <button class="submit">Следующый</button>
-    </div>
-    </div>
-    </div>
-    <div class="second_side">
-<div class="lotoses">
-  <div class="lotos"></div>
-</div>
-<div class="frogs">
-
-  <div class="forg">
-
-  </div>
-  </div>
-  </div>
-  `;
   }
 };
 if (document.querySelector(".ada").value !== levels[0].answer) {
