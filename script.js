@@ -609,30 +609,23 @@ align-items: flex-end;`,
     frog_num: 7,
   },
 ];
-for(let i of levels){
-
-  if(i.level == 6){
-    console.log(i.answer);
-  }
-}
-Object.prototype.idx = 0
 console.log(levels);
 document.querySelector("section").innerHTML = `
 <div class="first_side">
 <div class="levels">
   <div class="prv"></div>
   <div class="number">
-    <span>Уровень <span id="this">${levels[Object.prototype.idx].level}</span> из 24 </span>
+    <span>Уровень <span id="this">${levels[0].level}</span> из 24 </span>
     <div class="dropdown"></div>
   </div>
   <div class="next"></div>
 </div>
 <div class="info">
   <div class="title"><h1>Flexbox Froggy</h1></div>
-  <span class="infos">${levels[Object.prototype.idx].info}</span>
-  <div class="list">${levels[Object.prototype.idx].list}</div>
+  <span class="infos">${levels[0].info}</span>
+  <div class="list">${levels[0].list}</div>
   <div class="example">
-  ${levels[Object.prototype.idx].example}
+  ${levels[0].example}
   </div>
 </div>
 <div class="code_space">
@@ -652,11 +645,11 @@ document.querySelector("section").innerHTML = `
   </div>
   <div class="inp_2">
     <div class="textarea">
-    <span class="given">${levels[Object.prototype.idx].given} </span>
+    <span class="given">${levels[0].given} </span>
    
     <br class="brg" />
     
-    <span class="answer">${levels[Object.prototype.idx].question} </span>
+    <span class="answer">${levels[0].question} </span>
     <textarea class='ada'></textarea>
     </div>
     <button class="submit">Следующый</button>
