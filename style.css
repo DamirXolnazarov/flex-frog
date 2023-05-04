@@ -541,7 +541,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
   section .first_side .code_space {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -590,12 +590,12 @@ section .first_side .code_space .inp_2 .textarea span span {
     width: 100%;
   }
   section .first_side .code_space {
-    margin-top: 150px;
+    margin-top: 180px;
   }
   section .second_side {
     width: 100%;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 190px;
     overflow: visible;
     background: #1f5768;
   }
@@ -633,36 +633,31 @@ section .first_side .code_space .inp_2 .textarea span span {
   section .first_side .info {
     line-height: 40px;
   }
-  section .first_side .list {
+  section .first_side .info .list {
     width: 100%;
   }
-  section .first_side .list ul {
+  section .first_side .info ul {
     width: 100%;
   }
-  section .first_side .list ul li {
+  section .first_side .info ul li {
     width: 100%;
   }
-  section .first_side .list mark {
+  section .first_side .info mark {
     font-size: 13px;
   }
-  section .first_side .list .infos {
+  section .first_side .info .infos {
     font-size: 13px;
   }
-  section .first_side .list .list ul {
+  section .first_side .info .example {
     font-size: 13px;
+    line-height: 20px;
   }
-  section .first_side .list .list ul li {
-    width: 400px;
-  }
-  section .first_side .list .example {
-    font-size: 13px;
-  }
-  section .first_side .list .title h1 {
+  section .first_side .info .title h1 {
     font-size: 25px;
   }
   section .first_side .code_space {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 190px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -673,7 +668,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   section .second_side {
     width: 100%;
     height: 100vh;
-    margin-top: 70px;
+    margin-top: 180px;
     overflow: visible;
     background: #1f5768;
   }
@@ -738,7 +733,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
   section .first_side .code_space {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -749,7 +744,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   section .second_side {
     width: 100%;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 140px;
     overflow: visible;
     background: #1f5768;
   }
@@ -813,7 +808,7 @@ section .first_side .code_space .inp_2 .textarea span span {
     font-size: 23px;
   }
   section .first_side .code_space {
-    margin-top: 110px;
+    margin-top: 160px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -823,7 +818,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
   section .second_side {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
     height: 100vh;
     overflow: visible;
     background: #1f5768;
@@ -886,7 +881,7 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
   section .first_side .code_space {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 170px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -898,7 +893,7 @@ section .first_side .code_space .inp_2 .textarea span span {
     width: 100%;
     height: 100vh;
     overflow: visible;
-    margin-top: 100px;
+    margin-top: 150px;
     background: #1f5768;
   }
   section .second_side .lotoses {
@@ -924,7 +919,7 @@ section .first_side .code_space .inp_2 .textarea span span {
     justify-content: space-between;
   }
   section .first_side .levels {
-    width: 150px;
+    width: 120px;
     font-size: 10px;
     text-align: center;
   }
@@ -955,11 +950,11 @@ section .first_side .code_space .inp_2 .textarea span span {
     font-size: 11px;
   }
   section .first_side .info .title h1 {
-    font-size: 23px;
+    font-size: 20px;
   }
   section .first_side .code_space {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
   }
   section .first_side .code_space .inp_2 .answer textarea {
     width: 200px !important;
@@ -971,7 +966,7 @@ section .first_side .code_space .inp_2 .textarea span span {
     width: 100%;
     height: 100vh;
     overflow: visible;
-    margin-top: 120px;
+    margin-top: 200px;
     background: #1f5768;
   }
   section .second_side .lotoses {
