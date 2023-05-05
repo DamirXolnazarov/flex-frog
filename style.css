@@ -834,9 +834,12 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
 }
 @media screen and (max-width: 415px) {
+  body {
+    overflow-x: hidden;
+  }
   section {
     flex-direction: column;
-    padding: 10px 15px;
+    padding: 10px 40px;
   }
   section .first_side {
     width: 100%;
@@ -849,6 +852,7 @@ section .first_side .code_space .inp_2 .textarea span span {
     width: 150px;
     font-size: 10px;
     text-align: center;
+    right: 10px;
   }
   section .first_side .levels .drop_div {
     font-size: 13px;
@@ -857,9 +861,14 @@ section .first_side .code_space .inp_2 .textarea span span {
   section .first_side .info {
     line-height: 40px;
   }
+  section .first_side .info .list {
+    width: 100%;
+  }
   section .first_side .info .list ul {
-    width: 100px;
-    margin-left: -20px;
+    width: 100%;
+  }
+  section .first_side .info .list ul li {
+    width: 100%;
   }
   section .first_side .info mark {
     font-size: 11px;
@@ -932,7 +941,6 @@ section .first_side .code_space .inp_2 .textarea span span {
   }
   section .first_side .info .list ul {
     width: 100px;
-    margin-left: -20px;
   }
   section .first_side .info mark {
     font-size: 11px;
