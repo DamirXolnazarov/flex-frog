@@ -574,8 +574,6 @@ align-items: flex-end;`,
             }`,
     given: null,
     example: null,
-    lotos_num: 15,
-    frog_num: 15,
   },
   {
     level: 24,
@@ -605,8 +603,6 @@ align-items: flex-end;`,
             }`,
     given:null,
     example: null,
-    lotos_num: 7,
-    frog_num: 7,
   },
 ];
   document.querySelector("section").innerHTML = `
