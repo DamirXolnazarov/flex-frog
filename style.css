@@ -153,7 +153,7 @@ section .first_side .info .infos mark {
 }
 section .first_side .info .list {
   width: 500px;
-  padding-left: 40px;
+  padding-left: 100px;
 }
 section .first_side .info .list ul {
   width: 650px;

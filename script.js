@@ -609,9 +609,8 @@ align-items: flex-end;`,
     frog_num: 7,
   },
 ];
-console.log(levels);
-document.querySelector("section").innerHTML = `
-<div class="first_side">
+  document.querySelector("section").innerHTML = `
+  <div class="first_side">
 <div class="levels">
   <div class="prv"></div>
   <div class="number">
@@ -644,11 +643,9 @@ document.querySelector("section").innerHTML = `
     </ul>
   </div>
   <div class="inp_2">
-    <div class="textarea">
-    <span class="given">${levels[0].given} </span>
-   
+  <div class="textarea">
+  <span class="given">${levels[0].given} </span>
     <br class="brg" />
-    
     <span class="answer">${levels[0].question} </span>
     <textarea class='ada'></textarea>
     </div>
@@ -657,18 +654,16 @@ document.querySelector("section").innerHTML = `
     </div>
     </div>
     <div class="second_side">
-<div class="lotoses">
-  <div class="lotos"></div>
-</div>
-<div class="frogs">
-
-  <div class="forg">
-
-  </div>
-  </div>
-  </div>
-  `;
-  console.log(document.querySelector('.ada'));
+    <div class="lotoses">
+    <div class="lotos"></div>
+    </div>
+    <div class="frogs">
+    <div class="forg">
+    </div>
+    </div>
+    </div>
+    `;
+    console.log(document.querySelector('.ada'));
   document.querySelector('.ada').oninput =() =>{
     console.log(document.querySelector('.ada').value.split('').join(''));
 document.querySelector('.frogs').style = event.target.value
@@ -678,7 +673,6 @@ if (document.querySelector(".ada").value !== i.answer) {
   document.querySelector(".submit").style.opacity = "0.5";
 } else {
   document.querySelector(".submit").style.opacity = "100%";
-  document.querySelector(".submit").classList.toggle("anim2");
 
 }
 }
@@ -699,7 +693,7 @@ if (document.querySelector(".ada").value !== i.answer) {
   } else {
     document.querySelector(".code_space").classList.remove("anim1");
   }
-};
+}
 if (document.querySelector(".ada").value !== levels[0].answer) {
   
   document.querySelector(".submit").style.opacity = "0.5";
@@ -737,10 +731,11 @@ for (let i of document.querySelectorAll("#leveel")) {
       }}
       document.querySelector(".submit").onclick = () => {
         if (document.querySelector(".ada").value !== levels[0].answer) {
-      document.querySelector(".code_space").classList.add("anim1");
-    } else {
-      document.querySelector(".code_space").classList.remove("anim1");
-    }}
+          document.querySelector(".code_space").classList.add("anim1");
+        } else {
+          document.querySelector(".code_space").classList.remove("anim1");
+        }}
+        document.querySelector(".ada").value = ''
     document.querySelector('.ada').setAttribute("rows", o.inp); 
           
         window.localStorage.data = JSON.stringify(o)
